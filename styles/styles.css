@@ -1,0 +1,21 @@
+.square-clear {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: slategrey;
+    background-color: white;
+}
+
+.square-activated {
+    border-style: solid;
+    border-width: 1px;
+    border-color: slategrey;
+    background-color: black;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
